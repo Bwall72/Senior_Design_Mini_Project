@@ -1,10 +1,11 @@
 <?php
     $var1 = $_GET['SPEED'];
     $var2 = $_GET['RPM'];
+    $var3 = $_get['time'];;
     
     var_dump($_POST);
 	
-    $fileContent = "SPEED = ".$var1." RPM ".$var2."\n";
+    $fileContent = "[".$var3."]SPEED = ".$var1." RPM ".$var2."\ni";
 
     $fileStatus = file_put_contents('data_file.txt', $fileContent, FILE_APPEND);
 
