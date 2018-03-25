@@ -1,7 +1,7 @@
 <?php
     $var1 = $_GET['SPEED'];
     $var2 = $_GET['RPM'];
-    $var3 = $_get['time'];;
+    $var3 = $_GET['time'];;
     
     var_dump($_POST);
 	
