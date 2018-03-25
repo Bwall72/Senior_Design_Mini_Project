@@ -5,7 +5,7 @@
     
     var_dump($_POST);
 	
-    $fileContent = "[".$var3."]SPEED = ".$var1." RPM ".$var2."\ni";
+    $fileContent = "[".$var3."]SPEED = ".$var1." RPM ".$var2."\n";
 
     $fileStatus = file_put_contents('data_file.txt', $fileContent, FILE_APPEND);
 
