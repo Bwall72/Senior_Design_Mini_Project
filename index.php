@@ -6,7 +6,7 @@
     
     var_dump($_POST);
 	
-    $fileContent = "Speed ".$speed." RPM ".$rpm." Voltage ".$voltage."time ".$time."\n";
+    $fileContent = "Speed ".$speed." RPM ".$rpm." Voltage ".$voltage." time ".$time."\n";
 
     $fileStatus = file_put_contents('car_test.txt', $fileContent, FILE_APPEND);
 
