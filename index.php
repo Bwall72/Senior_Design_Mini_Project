@@ -8,7 +8,7 @@
 	
     $fileContent = "Speed ".$speed." RPM ".$rpm." Voltage ".$voltage." time ".$time."\n";
 
-    $fileStatus = file_put_contents('car_test.txt', $fileContent, FILE_APPEND);
+    $fileStatus = file_put_contents('nyc_trip.txt', $fileContent, FILE_APPEND);
 
     if($fileStatus != false)
     {
