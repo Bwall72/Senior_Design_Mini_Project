@@ -1,13 +1,14 @@
 <?php
-    $var1 = $_GET['SPEED'];
-    $var2 = $_GET['RPM'];
-    $var3 = $_GET['time'];;
+    $speed   = $_GET['SPEED'];
+    $rpm     = $_GET['RPM'];
+    $voltage = $_GET['Voltage'];
+    $time    = $_GET['time'];;
     
     var_dump($_POST);
 	
-    $fileContent = "[".$var3."]SPEED = ".$var1." RPM ".$var2."\n";
+    $fileContent = "Speed ".$speed." RPM ".$rpm." Voltage ".$voltage."time ".$time."\n";
 
-    $fileStatus = file_put_contents('data_file.txt', $fileContent, FILE_APPEND);
+    $fileStatus = file_put_contents('car_test.txt', $fileContent, FILE_APPEND);
 
     if($fileStatus != false)
     {
