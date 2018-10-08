@@ -9,6 +9,8 @@ $speed_readings = explode(",", speed);
 $rpm_readings   = explode(",", rpm);
 $time_readings  = explode(",", time);
 
+echo $speed_readings;
+/*
 for ($i = 0; i < count($speed_readings); $i = $i + 1) {
 
     
@@ -23,5 +25,6 @@ for ($i = 0; i < count($speed_readings); $i = $i + 1) {
     {
         echo "Failure";
     }
-}
+    }*/
+
 ?>
