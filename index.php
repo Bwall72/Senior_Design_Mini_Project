@@ -5,6 +5,9 @@ $time    = $_GET['time'];
 
 var_dump($_POST);
 
+print_r($speed);
+print_r($rpm);
+print_r($time);
 $speed_readings = explode(",", $speed);
 $rpm_readings   = explode(",", $rpm);
 $time_readings  = explode(",", $time);
@@ -12,7 +15,7 @@ $time_readings  = explode(",", $time);
 print_r($speed_readings);
 print_r($time_readings);
 print_r($rpm_readings);
-/*
+
 for ($i = 0; i < count($speed_readings); $i = $i + 1) {
 
     
@@ -27,6 +30,6 @@ for ($i = 0; i < count($speed_readings); $i = $i + 1) {
     {
         echo "Failure";
     }
-    }*/
+    }
 
 ?>
