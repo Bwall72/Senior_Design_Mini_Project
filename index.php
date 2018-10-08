@@ -5,9 +5,9 @@ $time    = $_GET['time'];
 
 var_dump($_POST);
 
-$speed_readings = explode(",", speed);
-$rpm_readings   = explode(",", rpm);
-$time_readings  = explode(",", time);
+$speed_readings = explode(",", $speed);
+$rpm_readings   = explode(",", $rpm);
+$time_readings  = explode(",", $time);
 
 print_r($speed_readings);
 print_r($time_readings);
