@@ -9,7 +9,9 @@ $speed_readings = explode(",", speed);
 $rpm_readings   = explode(",", rpm);
 $time_readings  = explode(",", time);
 
-echo $speed_readings;
+print_r($speed_readings);
+print_r($time_readings);
+print_r($rpm_readings);
 /*
 for ($i = 0; i < count($speed_readings); $i = $i + 1) {
 
