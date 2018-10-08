@@ -28,7 +28,7 @@ for ($i = 0; $i < count($speed_readings); $i = $i + 1) {
     }
     else    
     {
-        echo "Failure"
+        echo "Failure";
     }
 }
 
